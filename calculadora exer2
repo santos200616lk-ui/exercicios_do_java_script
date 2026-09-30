@@ -1,0 +1,42 @@
+function roxa(){
+console.log("5X2="+5*2)
+console.log("5X4="+5*4)
+console.log("5X6="+5*6)
+console.log("5X8="+5*8)
+}
+
+function azul(){
+console.log("5+2=",5+2)
+console.log("5+4=",5+4)
+console.log("5+6=",5+6)
+console.log("5+8=",5+8)
+}
+
+function lilas(){
+console.log("5/2="+5/2)
+console.log("5/4="+5/4)
+console.log("5/6="+5/6)
+console.log("5/8="+5/8)
+}
+function menu(){
+    console.log("calculadora")
+    console.log("1.multiplicar")
+    console.log("2.somar")
+    console.log("3.dividir")
+    console.log("4.sair")
+   switch(preto){
+    case 1:
+      roxa()
+      break;
+    case 2:
+      azul()
+      break;
+    case 3:
+      lilas()
+      break;
+  }
+  
+}
+let preto=1
+// prompt("digite uma das opções");
+menu()
